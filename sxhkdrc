@@ -1,0 +1,13 @@
+#Open Application
+super + o;{w,g,k,f,m}
+	{firefox,gimp,kdenlive,pcmanfm,if [ -f /home/raihan/.moc/pid ]; then rm /home/raihan/.moc/pid && xfce4-terminal -e mocp; else xfce4-terminal -e mocp;fi}
+super {_,shift +,alt + } Pause
+	pactl set-sink-volume 0 {+,-,_}5%
+super + alt + {F7,F8,Home,End}
+	{xrandr --output VGA-1 --auto, xrandr --output VGA-1 --off, systemctl reboot, systemctl poweroff}
+super + t
+	xfce4-terminal
+control + alt + t
+	gnome-terminal
+Print {_, + shift,+ alt}
+	gnome-screenshot {_,-a,-w}
