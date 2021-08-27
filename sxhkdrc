@@ -11,4 +11,4 @@ super + t
 control + alt + t
 	gnome-terminal
 Print {_, + shift,+ alt}
-	gnome-screenshot {_,-a,-w}
+	gnome-screenshot {_,-a,-c}
