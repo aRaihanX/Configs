@@ -1,3 +1,4 @@
+#Location: $HOME/.config/sxhkd/sxhkdrc
 #Open Application
 super + o;{w,g,k,f,m,r}
 	{firefox,gimp,kdenlive,pcmanfm,if [ -f /home/raihan/.moc/pid ]; then rm /home/raihan/.moc/pid && lxterminal -e mocp; else lxterminal -e mocp;fi,lxterminal -e ranger}
